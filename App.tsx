@@ -9,7 +9,7 @@ export default function App() {
     <View style={styles.container}>
       <Header />
       <CarsList />
-      <StatusBar style="auto" />
+      <StatusBar style="auto" hidden={false} translucent={false} backgroundColor='white'/>
     </View>
   );
 }
